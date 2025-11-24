@@ -1,6 +1,10 @@
 # Dependencies
 node_modules/
 
+# Database
+*.db
+*.db-journal
+
 # Editor directories and files
 .vscode/
 .idea/
@@ -14,3 +18,11 @@ Thumbs.db
 # Logs
 *.log
 npm-debug.log*
+
+# Environment
+.env
+.env.local
+
+# Build
+dist/
+build/

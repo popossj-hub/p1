@@ -1,0 +1,38 @@
+{
+  "switches": [
+    {
+      "id": 1,
+      "name": "Switch-1",
+      "managementIP": "10.92.10.10",
+      "community": "public"
+    },
+    {
+      "id": 2,
+      "name": "Switch-2",
+      "managementIP": "10.92.10.11",
+      "community": "public"
+    },
+    {
+      "id": 3,
+      "name": "Switch-3",
+      "managementIP": "10.92.10.140",
+      "community": "public"
+    },
+    {
+      "id": 4,
+      "name": "Switch-4",
+      "managementIP": "10.92.10.143",
+      "community": "public"
+    }
+  ],
+  "vlans": [101, 102, 118, 920, 921],
+  "snmp": {
+    "port": 161,
+    "trapPort": 162,
+    "timeout": 5000,
+    "retries": 1
+  },
+  "server": {
+    "port": 3000
+  }
+}
