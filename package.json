@@ -1,0 +1,23 @@
+{
+  "name": "network-management-system",
+  "version": "1.0.0",
+  "description": "Network Management System with IPAM functionality",
+  "main": "server/app.js",
+  "scripts": {
+    "start": "node server/app.js",
+    "dev": "nodemon server/app.js"
+  },
+  "keywords": ["network", "ipam", "snmp", "monitoring"],
+  "author": "Cody Reynolds",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "socket.io": "^4.6.1",
+    "net-snmp": "^3.11.2",
+    "sqlite3": "^5.1.7",
+    "ping": "^0.4.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
